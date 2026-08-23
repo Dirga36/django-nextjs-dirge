@@ -1,13 +1,10 @@
 {
-    "services": {
-        "backend": {
-            "root": "backend",
-            "mountPath": "/api/backend"
-        },
-        "frontend": {
-            "root": "frontend",
-            "mountPath": "/",
-            "framework": "nextjs"
-        }
+  "services": {
+    "backend": {
+      "root": "backend"
+    },
+    "frontend": {
+      "root": "frontend"
     }
+  }
 }
